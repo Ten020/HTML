@@ -1,0 +1,14 @@
+body{background-color: rgb(133, 226, 159);}
+h1{color: rgb(59, 59, 248);}
+section {color: blueviolet;}
+h1{border-bottom: 2px solid black;}
+.border{border-bottom: 2px solid black;background-color: beige;}
+.sport{border-bottom: 2px solid black;background-color: beige;}
+.song {border-bottom: 2px solid black; background-color: beige;}
+nav{ text-align: center; background-color: beige;}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
