@@ -1,7 +1,48 @@
-body { background-color: blanchedalmond;}
-p { color: brown;}
-#Mijncv { background-color: blue;}
-.taal { font-size: 24px; }
-h2,h3 { color: green;}
-h1 { text-align: center;}
-div.a {text-align: center;}
+/* CV.css */
+
+/* Algemene opmaak */
+body {
+    background-color: blanchedalmond;
+  }
+  
+  p {
+    color: brown;
+  }
+  
+  /* Opmaak voor specifieke elementen */
+  h1#Mijncv {
+    background-color: blue;
+    text-align: center;
+  }
+  
+  .taal {
+    font-size: 24px;
+  }
+  
+  h2, h3 {
+    color: green;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  div.a {
+    text-align: center;
+  }
+
+
+
+  .flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 11px;
+    padding: 21px;
+    font-size: 31px;
+  }
+  
+  
