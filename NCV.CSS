@@ -1,0 +1,45 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+
+.header {
+  grid-column: 1 / span 2;
+}
+
+.personal-info {
+  grid-column: 1 / span 2;
+}
+
+.education {
+  grid-column: 1;
+}
+
+.work-experience {
+  grid-column: 2;
+}
+
+.languages {
+  grid-column: 1 / span 2;
+}
+
+.section-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+footer { 
+  text-align: center;
+  padding: 50px;
+  background-color: bisque;
+  color: black;
+}
